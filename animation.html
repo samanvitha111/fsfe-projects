@@ -1,0 +1,30 @@
+
+<!---css animation example-->
+<html>
+    <head>
+        <style>
+            .box {
+                width:120px;
+                height:120px;
+                background-color:lightgreen;
+               /*animation properties*/
+               animation-name:movebox;
+               animation-duration: 5s;
+               animation-iteration-count:infinite;
+            }
+
+            @keyframes movebox {
+                from{
+                    transform: translatex(200px);
+                }
+                to {
+                    transform: translate(800px);
+                
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box"></div>
+    </body>
+</html>
