@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+        REGISTRATION PAGE
+        </title>
+    </head>
+    <body align="center">
+        <h1> registration page </h1>
+        <form action="success.html" method="get/post">
+
+        name: <input type="text" name="g1" placeholder="enter your name" autofocus> <br><br>
+email : <input type = "email" name="g2" placeholder="abc@klh.edu.in" 
+required > <br><br>
+mobile : <input type="number" name="g3" placeholder="mobile no" pattern="[0-9]{10}"    
+required> <br><br>
+course : <select name="g4" required>
+    <option value="1">select</option>
+    <option>b.tech</option>
+    <option>m.tech</option>
+    <option>p.hd</option>
+</select> <br><br>
+
+<!----if u put diff name u can select both and if u put same names u can only select one-->
+
+gender : <input type="radio" name="g5" required> male
+<input type="radio" name="g5" >Female<br><br>
+
+address : <textarea name="g6" required rows="3" cols="30"
+place holder="enter your adress">
+</textarea><br><br>
+
+skills known: <input type="checkbox" name="g7">HTML 
+              <input type="checkbox" name="g7">JavaScript
+              <input type="checkbox" name="g7">css
+              <input type="checkbox" name="g7">php<br><br>
+
+
+            inter percentage : <input type="number" name="g8" min="0" max="100"
+            required> <br><br>
+
+            upload photo: <input  type="file" name="g9 " accept=".jpg,.jpeg,.png">
+            <br><br>
+
+            password: <input type="password" name="g10" minlength="6" required>
+
+            <input type="checkbox" name="g11" required> I agree to the terms<br><br>
+
+            <button type="submit"> register </button>
+            <button tyoe="reset"> clear all </button>
+
+
+</form>
+    </body>
+    </html>
+        
+        
+    
